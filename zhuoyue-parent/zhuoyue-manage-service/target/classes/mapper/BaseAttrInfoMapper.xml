@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icis.mapper.BaseAttrInfoMapper">
+    <!--根据三级分类id  获得平台属性和平台属性值-->
+
+                              <!--只用配置主键 其余的自动映射-->
+    <resultMap id="attrInfoMap" type="BaseAttrInfo" autoMapping="true">
+        <!-- 主键      数据库字段     实体类字段    -->
+            <id column="id" property="id"></id>
+        <!--配置字一对多关系映射-->
+                    <!--BaseAttrInfo 里的字段-->
+        <collection property="attrValueList" ofType="BaseAttrValue" autoMapping="true">
+            <id column="bavid" property="id"></id>
+        </collection>
+    </resultMap>
+
+    <select id="attrInfoList" parameterType="string" resultMap="attrInfoMap">
+    select
+    b1.`id`,
+  b1.`attr_name`,
+  b1.`catalog3_id`,
+  b2.`id` bavid,
+  b2.`attr_id` ,
+  b2.`value_name`
+    FROM
+    base_attr_info b1
+  INNER JOIN base_attr_value b2
+    ON b1.`id` = b2.`attr_id`
+    WHERE b1.`catalog3_id` = #{c3id}
+
+    </select>
+
+</mapper>

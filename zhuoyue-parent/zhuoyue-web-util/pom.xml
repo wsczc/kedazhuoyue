@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhuoyue-parent</artifactId>
+        <groupId>com.icis</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhuoyue-web-util</artifactId>
+    <!--导入依赖-->
+    <dependencies>
+        <!--导入通用工具依赖-->
+        <dependency>
+            <groupId>com.icis</groupId>
+            <artifactId>zhuoyue-common-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--springboot自带页面渲染工具-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

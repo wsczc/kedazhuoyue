@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icis.mapper.SkuSaleAttrValueMapper">
+    <resultMap id="getSkuSale" type="SkuSaleAttrValue" autoMapping="true">
+        <id column="id" property="id"></id>
+    </resultMap>
+
+    <select id="getSkuSaleAttrrListBySpuId" parameterType="string" resultMap="getSkuSale">
+        
+        SELECT
+  	sale_attr_value_id,
+	sku_id,
+	sale_attr_value_name
+FROM
+  sku_info sk
+  LEFT JOIN sku_sale_attr_value skv
+    ON sk.`id` = skv.`sku_id`
+WHERE sk.`spu_id` = #{spuId} ;
+    </select>
+
+</mapper>

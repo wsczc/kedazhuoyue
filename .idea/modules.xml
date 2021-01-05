@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DianShang.iml" filepath="$PROJECT_DIR$/DianShang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/fastdfs-client-java/fastdfs-client-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speingboot-mapper/speingboot-mapper.iml" filepath="$PROJECT_DIR$/speingboot-mapper/speingboot-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-bean/zhuoyue-bean.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-bean/zhuoyue-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-common-util/zhuoyue-common-util.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-common-util/zhuoyue-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-interface/zhuoyue-interface.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-interface/zhuoyue-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-items-web/zhuoyue-items-web.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-items-web/zhuoyue-items-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-manage-service/zhuoyue-manage-service.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-manage-service/zhuoyue-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-manage-web/zhuoyue-manage-web.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-manage-web/zhuoyue-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-parent.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-password-web/zhuoyue-password-web.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-password-web/zhuoyue-password-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-service-util/zhuoyue-service-util.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-service-util/zhuoyue-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-userservice-consumer/zhuoyue-userservice-consumer.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-userservice-consumer/zhuoyue-userservice-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-userservice-provider/zhuoyue-userservice-provider.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-userservice-provider/zhuoyue-userservice-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuoyue-parent/zhuoyue-web-util/zhuoyue-web-util.iml" filepath="$PROJECT_DIR$/zhuoyue-parent/zhuoyue-web-util/zhuoyue-web-util.iml" />
+    </modules>
+  </component>
+</project>
